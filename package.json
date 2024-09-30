@@ -15,7 +15,7 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://matheuspauldev.github.io/Trybetunes/",
+  "homepage": "https://matheuspauldev.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
