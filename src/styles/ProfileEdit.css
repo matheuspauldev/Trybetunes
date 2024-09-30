@@ -1,0 +1,77 @@
+.profile-edit-page .user-image {
+  margin-bottom: -144px;
+  min-height: 190px;
+}
+
+.profile-edit-page .profile-edit-inputs {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  margin: 90px auto 24px;
+  text-align: center;
+}
+
+.profile-edit-page .profile-edit-inputs .edit-input-field {
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 14px;
+  max-width: 320px;
+  padding: 2px 8px;
+  resize: none;
+  width: 100%;
+}
+
+.profile-edit-page .profile-edit-inputs button {
+  background-color: gray;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  margin: 0 auto;
+  max-width: max-content;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 300ms;
+}
+
+.profile-edit-page .profile-edit-inputs button:not( [ disabled ] ) {
+  background-color: var(--primary-color);
+}
+
+.profile-edit-page .user-infos {
+  font-weight: 700;
+}
+
+@media only screen and ( min-width : 768px ) {
+
+  .profile-edit-page .user-image {
+    max-width: 260px;
+  }
+
+  .profile-edit-page .profile-edit-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 144px;
+    max-width: 500px;
+  }
+
+  .profile-edit-page .profile-edit-inputs .edit-input-field {
+    border: none;
+    border-bottom: 1px solid var(--primary-color);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 14px;
+    max-width: 500px;
+    padding: 2px 8px;
+    resize: none;
+    width: 100%;
+  }
+}
