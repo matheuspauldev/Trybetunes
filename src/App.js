@@ -22,21 +22,21 @@ class App extends React.Component {
   render() {
     return (
       <Switch>
-        <Route exact path="/album/:id" component={Album} />
-        <Route exact path="/favorites" component={Favorites} />
-        <Route exact path="/profile" component={Profile} />
-        <Route exact path="/profile/edit" component={ProfileEdit} />
+        <Route exact path="/album/:id" component={ Album } />
+        <Route exact path="/favorites" component={ Favorites } />
+        <Route exact path="/profile" component={ Profile } />
+        <Route exact path="/profile/edit" component={ ProfileEdit } />
         <Route
           exact
           path="/search"
-          component={Search}
+          component={ Search }
         />
         <Route
           exact
           path="/"
-          component={Login}
+          component={ Login }
         />
-        <Route exact component={NotFound} />
+        <Route exact component={ NotFound } />
       </Switch>
     );
   }
